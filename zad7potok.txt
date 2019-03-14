@@ -1,0 +1,2 @@
+for file in `find -type f`; do mv -v -i $file `echo $file | tr 'A-ZĄĆĘŁŃÓŹŻ' 'a-ząćęłńóżź'`; done
+
